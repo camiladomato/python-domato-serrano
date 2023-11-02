@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    background-image: url(./imagenes/bn3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center
+}
+  
+.header-txt{
+   text-align: center;
+}
+    
+.header-txt h1{
+    font-size: 70px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+}
+
+.header-txt p{
+    color: #fffdfc;
+    text-align: center;
+    font-size: 20px;
+    padding:0 250px;
+
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+.logo{
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float:left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.p-principal{
+    padding: 10%;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.ceremonias{
+    padding: 10%;
+}
+
+.torneo-leage{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.Callofduty{
+    display: flex;
+    align-items: center;
+    gap: 50%;
+}
