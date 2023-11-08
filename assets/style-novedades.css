@@ -1,3 +1,5 @@
+
+
 body{
     background: url(./imagenes/fondo-novedades.jpg) no-repeat center center fixed;
     background-size: cover;   
@@ -5,14 +7,14 @@ body{
 
 .main-section{
     margin: 0 auto;
-    margin-top: 15%;
+    margin-top: 20%;
     padding: 0;
 }
 
 .modal-content{
     background-color: blueviolet;
     opacity: 85%;
-    padding: 0 20px;
+    padding:0 15px;
     box-shadow: 0px 0px 0px rgb(213, 131, 240);
 }
 
@@ -36,5 +38,15 @@ body{
     text-align: center;
     color: aliceblue;
     margin: auto 0 10% 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
 }
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border: 0;
+   /* padding-left: 54px;*/
+    border-radius: 5px;
+}
+
 
