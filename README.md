@@ -12,7 +12,8 @@ CamelGaming es el resultado de la colaboración de Camila y Melanie, quienes uti
 - Productos: Explora y compra productos relacionados con el gaming, como hardware, accesorios y mercaderia.
 
 # Tecnologías Utilizadas
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
 
