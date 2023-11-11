@@ -5,9 +5,12 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    background-color:#443e5b;
+    
 }
 
+body{
+    background-color:#443e5b;
+}
 .header {
     background-image: url(./imagenes/bn5.jpg);
     background-repeat: no-repeat;
@@ -123,13 +126,19 @@ p{
     font-size: 16px;
 }
 
-ul{
+.listas{
+    display: flex;
+    justify-content: center;
+}
+
+ul,li{
     text-align: center;
     color:#fffdfc;
     font-family: 'Montserrat';
     font-size: 16px;
-    list-style-type: circle;
+    list-style: disc;
 }
+
 
 h2{
     text-align: center;
