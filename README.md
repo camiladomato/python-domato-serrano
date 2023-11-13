@@ -1,5 +1,5 @@
 # CamelGaming
-CamelGaming es un proyecto web desarrollado con HTML, CSS y JavaScript que ofrece una plataforma para explorar novedades, eventos y productos relacionados con el mundo del gaming. Este README proporciona una visión general del proyecto y cómo se puede utilizar.
+CamelGaming es un proyecto web desarrollado con HTML, CSS y JavaScript que ofrece una plataforma para explorar novedades, eventos y productos relacionados con el mundo del gaming. Este README proporciona una visión general del proyecto.
 
 # Colaboración y Metodología
 CamelGaming es el resultado de la colaboración de Camila y Melanie, quienes utilizaron el método de metodologia scrum agile para llevar a cabo el desarrollo de este proyecto. Esta metodología ágil permitió una gestión eficiente de tareas, reuniones regulares y una comunicación efectiva, lo que contribuyó al éxito del proyecto.
