@@ -5,19 +5,76 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.header {
-    background-image: url(./imagenes/bn3.jpg);
+:root{
+    --color-primario:#333356;
+    --color-secundario:  #5e4574;
+    --color-terciario:#9b5fa1;
+    --color-cuarto:#f083d6;
+    --color-quinto:#ffbdf4;
+    --color-sexto: #9c70c7;
+    --color-septimo:#be89f3;
+}
+nav a{
+    border-radius: 55px;
+    background: #9c70c7;
+    box-shadow:  27px 27px 48px #7a579b,
+             -27px -27px 48px #be89f3;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+nav a:hover{
+    background-color: #7a579b;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.encabezado-inicio{
+    height: 10vh;
+    width: 100%;
+    color: white;
+    background-color: #9c70c7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/*--------------------------------------*/
+
+body{
+    background-color:#443e5b;
+}
+
+.banner {
+    background-image: url(./imagenes/bn5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 70vh;
+    background-position: center;
+    min-height: 60vh;
+}
+.header {
+    
+   
     display: flex;
     align-items: center
+
 }
   
 .header-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
    text-align: center;
+   font-family:'Montserrat', sans-serif;
 }
     
 .header-txt h1{
@@ -25,6 +82,7 @@
     color: #fffdfc;
     text-transform: uppercase;
     margin-bottom: 20px; 
+    background-color: #443e5b67;
 }
 
 .header-txt p{
@@ -81,26 +139,122 @@
 }
 
 .p-principal{
-    padding: 10%;
+    padding: 5%;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #fffdfc;
+    text-align: center;
+    
+}
+.p-principal2{
+    display: flex;
+    padding: 5%;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #fffdfc;
+
 }
 
 .principal{
     display: flex;
+    margin: 5%;
     align-items: center;
     gap: 50px;
 }
+
 
 .ceremonias{
-    padding: 10%;
+    padding: 4%;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #fffdfc;
+    text-align:center;
+}
+p{
+    padding: 2%;
+    text-align: center;
+    color: #fffdfc;
+    font-family: 'Montserrat';
+    font-size: 16px;
 }
 
-.torneo-leage{
-    display: flex;
-    align-items: center;
-    gap: 50px;
+
+.contenido{
+    width: 100%;
+    text-align:start;
 }
-.Callofduty{
-    display: flex;
-    align-items: center;
-    gap: 50%;
+
+ul,li{
+    color:#fffdfc;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    list-style: disc;
+    list-style-position: inside;
 }
+
+
+h2{
+    text-align: center;
+    color: #fffdfc;
+    background-color:#9c70c7;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}   
+#logo{
+    height: 5vw;
+    width: 10vh;
+    border-radius: 50%;
+}
+footer{
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+@media (max-width: 1250px) {
+   .principal{
+        display: block;
+   }
+   .imagen{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+   }
+   .header-txt h1{
+    font-size: 50px;
+    padding-top: 10%;
+    text-align: center;
+
+   }
+
+  
+  }
+  @media (max-width: 425px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav a {
+        margin-top: 1rem;
+    }
+    .encabezado-inicio{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+    #logo{
+        display: none;
+    }
+   
+   }

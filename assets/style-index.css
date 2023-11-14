@@ -139,3 +139,20 @@ footer{
     align-items: center;
     height: 10vh;
 }
+/*mediaqueries*/
+@media (max-width: 425px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav a {
+        margin-top: 1rem;
+    }
+    .encabezado-inicio{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+    }
+ 
+   
+   }
