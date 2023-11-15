@@ -14,7 +14,9 @@
 <body>
     <header class="header encabezado-inicio">
         <img src="./assets/imagenes/logo.png" alt="logo" id="logo">
-        <h1>Eventos</h1>
+
+        <h1>Novedades</h1>
+
         <nav>
             <a href="./index.html">inicio</a>
             <a href="./eventos.html">eventos</a>
@@ -24,18 +26,24 @@
     </header>
     <main class="d-flex flex-column justify-content-center">
         <form  action="https://formspree.io/f/mnqkynea" method="POST" class="container ">
-            <div class="user-img">
-                <img src="./assets/imagenes/avatar2.png" alt="">
-            </div>
+
+           
             <h2 class="texto mt-5">¿Quieres recibir las novedades sobre videojuegos, tecnologia y mas? Inscribite</h2>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label ancho-label-input">Nombre:</label>
                 <input type="text" class="form-control ancho-label-input" id="exampleInputPassword1" placeholder="Nombre completo">
+
+           
+            <h2 class="texto mt-5">¿Quieres recibir las novedades sobre videojuegos, tecnologia y mas? Inscribite</h2>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label ancho-label-input">Nombre:</label>
+                <input type="text" name="text" class="form-control ancho-label-input" id="exampleInputPassword1" placeholder="Nombre completo" required>
+
             </div>
             
             <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label ancho-label-input">Email:</label>
-            <input type="email" class="form-control ancho-label-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email@ejemplo.com">
+            <input type="email" name="email" class="form-control ancho-label-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email@ejemplo.com" required>
             </div>
             
            

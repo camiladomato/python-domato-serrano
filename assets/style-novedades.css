@@ -65,16 +65,7 @@ main{
 }
 
 
-.user-img{
-    position: absolute;
-    top: 90px; left: 900px;
-    margin-top: 150px;
-}
 
-.user-img img{
-    width: 100px;
-    height: 100px;
-}
 
 .form-group{
     height: 42px;
