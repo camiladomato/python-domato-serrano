@@ -11,10 +11,8 @@ try {
     (async () => {
 	const response = await fetch(url, options);
 	let resultado = await response.json();
-    console.log(resultado)
-    console.log(resultado[0].id)
     let producto = resultado.find(resultado => resultado.id === idProducto)
-   console.log(producto);
+
 
     crearCardDetalle(contenedorCardDetalle , producto)
     })()
@@ -35,17 +33,17 @@ let idProducto = parseInt(params.get("parametro"));
  let contenedorCardDetalle = document.getElementById("sec-card");
 
  function crearCardDetalle(elemento , producto){
-    elemento.innerHTML +=`<article class="card-product-detalle">
-    <img src="${producto.image}" alt="">
-    <div class="card-product-detalle-txt">
-        <h3>${producto.title}</h3>
-        <p>Precio:${producto.worth}</p>
-        <p id="descripcion">${producto.description}</p>
-        <p>tipo:${producto.type}</p>
-        <p>Plataformas:${producto.platforms}</p>
-        <p>Usuarios:${producto.users}</p>
-    </div>
-</article>
- ` 
+    const precio = producto.worth === 'N/A' ? 'Precio no disponible' : `<span class="texto-card">Precio:</span> ${producto.worth}`;
+    elemento.innerHTML += `<article class="card-product-detalle">
+        <img src="${producto.image}" alt="${producto.title}">
+        <div class="card-product-detalle-txt">
+            <h3>${producto.title}</h3>
+            <p id="descripcion">${producto.description}</p>
+            <p>${precio}</p>
+            <p><span class="texto-card">Tipo:</span> ${producto.type}</p>
+            <p><span class="texto-card">Plataformas:</span> ${producto.platforms}</p>
+            <p><span class="texto-card">Usuarios:</span> ${producto.users}</p>
+        </div>
+    </article>`;
     
  }
