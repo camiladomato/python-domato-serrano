@@ -164,7 +164,7 @@ h2 , h3 , h4 , h5 , h6{
 
 #descripcion{
     text-align: justify;
-    width: 100%;
+    width: 50%;
 }
 
 /*--------------------------------*/
@@ -211,6 +211,10 @@ footer{
     }
     .card-product-detalle img{
         width: 95%;
+    }
+    #descripcion{
+        text-align: justify;
+        width: 100%;
     }
 }
 @media (max-width: 425px) {
