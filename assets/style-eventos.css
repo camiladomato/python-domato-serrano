@@ -207,9 +207,10 @@ img{
     object-fit: cover;
 }   
 #logo{
-    height: 4vw;
-    width: 8vh;
+    height: 5rem;
+    width: 5rem;
     border-radius: 50%;
+    object-fit: cover;
 }
 footer{
     background-color:black;
@@ -252,8 +253,13 @@ footer{
         flex-direction: column;
     }
     footer{
+        display: flex;
         flex-direction: column;
+        height: 15vh;
     }
+   footer p {
+    font-size: 15px;
+   }
     #logo{
         display: none;
     }

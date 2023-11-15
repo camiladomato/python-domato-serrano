@@ -17,9 +17,9 @@
     --color-septimo:#be89f3;
 }
 #logo{
-    height: 4vw;
-    width: 8vh;
+    height: 5rem;
     border-radius: 50%;
+    object-fit: cover;
 }
 nav a{
     border-radius: 55px;
@@ -61,9 +61,6 @@ h2 , h3 , h4 , h5 , h6{
 }
 /*--------------------------------------*/
 
-body{
-  
-}
 
 main{
     background: url(./imagenes/fondo-novedades.jpg) no-repeat center center fixed;
@@ -157,8 +154,13 @@ footer{
         width: 70vw !important;
     }
     footer{
+        display: flex;
         flex-direction: column;
+        height: 15vh;
     }
+   footer p {
+    font-size: 15px;
+   }
     #logo{
         display: none;
     }

@@ -31,9 +31,9 @@ nav a:hover{
     background-color: #7a579b;
 }
 #logo{
-    height: 4vw;
-    width: 8vh;
+    height: 5rem;
     border-radius: 50%;
+    object-fit: cover;
 }
 p{
     font-family: 'Roboto', sans-serif;
@@ -142,7 +142,6 @@ h2 , h3 , h4 , h5 , h6{
     border-radius: 5%;
 }
 .card-product-detalle{
-    height:45vh ;
     background-color:#333356;
     display: flex;
     justify-content: space-around;
@@ -178,6 +177,42 @@ footer{
     height: 10vh;
 }
 /*mediaqueries*/
+@media (max-width: 1440px) {
+    .contenedor-productos{
+        gap:2rem;
+        padding: 2rem;
+        background-color: #333356;
+    }
+       
+    .card-product{
+        width: 460px;
+        height:25rem ;
+        background-color: #9c70c7;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+        border-radius: 5%;
+    }
+    .card-product-detalle{
+        background-color:#333356;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap:2rem;
+    }
+    .card-product-detalle-txt{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        color: white;
+    }
+    .card-product-detalle img{
+        width: 95%;
+    }
+}
 @media (max-width: 425px) {
     nav{
         display: flex;
@@ -194,6 +229,27 @@ footer{
     #logo{
         display: none;
     }
-   
-   
+    .card-product{
+        height:22rem ;
+        background-color: #9c70c7;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+        border-radius: 5%;
+    }
+    .card-product img{
+        width: 100%;
+        object-position: center;
+        border-radius: 5% 5% 0% 0%;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 15vh;
+    }
+   footer p {
+    font-size: 15px;
+   }
    }

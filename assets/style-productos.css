@@ -66,9 +66,9 @@ h2 , h3 , h4 , h5 , h6{
     color: white;
 }
 #logo{
-    height: 4vw;
-    width: 8vh;
+    height: 5rem;
     border-radius: 50%;
+    object-fit: cover;
 }
 .subtitulo{
     display: flex;
@@ -146,6 +146,25 @@ footer{
     height: 10vh;
 }
 /*mediaqueries*/
+@media (max-width: 1440px) {
+    .contenedor-productos{
+        gap:2rem;
+        padding: 2rem;
+        background-color: #333356;
+    }
+       
+    .card-product{
+        width: 460px;
+        height:25rem ;
+        background-color: #9c70c7;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+        border-radius: 5%;
+    }
+}
+/*mediaqueries*/
 @media (max-width: 425px) {
      nav{
         display: flex;
@@ -162,6 +181,27 @@ footer{
     #logo{
         display: none;
     }
-   
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 15vh;
+    }
+   footer p {
+    font-size: 15px;
+   }
+   .card-product{
+    height:22rem ;
+    background-color: #9c70c7;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+    border-radius: 5%;
+}
+.card-product img{
+    width: 100%;
+    object-position: center;
+    border-radius: 5% 5% 0% 0%;
+}
    
    }  
