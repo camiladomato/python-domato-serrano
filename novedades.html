@@ -9,32 +9,25 @@
     <link rel="stylesheet" href="./assets/style-novedades.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght100&family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header encabezado-inicio">
         <img src="./assets/imagenes/logo.png" alt="logo" id="logo">
-
-        <h1>Novedades</h1>
-
+        <h1 class="fw-bolder">CamelGaming</h1>
         <nav>
-            <a href="./index.html">inicio</a>
-            <a href="./eventos.html">eventos</a>
-            <a href="#">novedades</a>
-            <a href="./productos.html">productos</a>
+            <a href="./index.html">Inicio</a>
+            <a href="./eventos.html">Eventos</a>
+            <a href="#">Novedades</a>
+            <a href="./productos.html">Productos</a>
         </nav>
+       
     </header>
+   
     <main class="d-flex flex-column justify-content-center">
-        <form  action="https://formspree.io/f/mnqkynea" method="POST" class="container ">
-
-           
-            <h2 class="texto mt-5">¿Quieres recibir las novedades sobre videojuegos, tecnologia y mas? Inscribite</h2>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label ancho-label-input">Nombre:</label>
-                <input type="text" class="form-control ancho-label-input" id="exampleInputPassword1" placeholder="Nombre completo">
-
-           
-            <h2 class="texto mt-5">¿Quieres recibir las novedades sobre videojuegos, tecnologia y mas? Inscribite</h2>
+        <h3 id="titulo-banner">¿Quieres recibir las novedades sobre videojuegos, tecnologia y mas? </h3>
+        <form  action="https://formspree.io/f/mnqkynea" method="POST" class="container text-light">
+            <h2 class="texto mt-5">¡Subscribite!</h2>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label ancho-label-input">Nombre:</label>
                 <input type="text" name="text" class="form-control ancho-label-input" id="exampleInputPassword1" placeholder="Nombre completo" required>

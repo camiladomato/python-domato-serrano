@@ -33,17 +33,37 @@ nav a:hover{
 p{
     font-family: 'Roboto', sans-serif;
     color: white;
+    font-size: 20px;
+    
 }
-h1 , h2 , h3 , h4 , h5 , h6{
+h1{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100px;
+}
+h2 , h3 , h4 , h5 , h6{
     font-family: 'Montserrat', sans-serif;
     color: white;
+    font-size: 30px;
 }
 .banner-productos{
+    display: flex;
+    align-items: center;
+    text-align: center;
     height: 60vh;
     width: 100%;
     background-image: url("./imagenes/user-gaming.jpg");
     background-position: center;
     background-size: cover;
+}
+#titulo-banner{
+    background-color: #443e5b67;
+    opacity: 85%;
+    padding:0 20px;
+    box-shadow: 0px 0px 0px rgb(213, 131, 240);
+    width: 100%;
+    padding: 2rem;
+    color: white;
 }
 #logo{
     height: 4vw;

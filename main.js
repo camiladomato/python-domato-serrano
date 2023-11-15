@@ -23,7 +23,7 @@ let contenedorDestacados = document.getElementById("productos-inicio");
 function crearCard( producto ){
     return ` <article class="card-product">
                 <img src="${producto.image}" alt="${producto.title}" class="card-product-img">
-                <h3>${producto.title}</h3>
+                <p>${producto.title}</p>
                 <div class="boton">
                 <a href="./detalle.html?parametro=${producto.id}">Ver Más</a></div>
             </article>
