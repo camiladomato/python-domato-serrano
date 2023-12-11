@@ -18,12 +18,15 @@ CamelGaming es el resultado de la colaboración entre Camila Domato y Melanie Se
 
 - **Detalle:** En cada tarjeta de producto (desde inicio o productos en el botón "ver más"), podrás acceder al producto en particular, de manera dinámica trayendo los datos.
 
+-**Administrador** Posee una pagina con formulario para poder cargar productos existentes , subir nuevos productos , editar y eliminar productos conectado al backen realizado en python.
+
 ## Tecnologías Utilizadas
 
 - **HTML:** Utilizado en las estructuras básicas para todas las webs.
 - **CSS:** Utilizado en el estilo para todas las webs.
 - **JavaScript:** Utilizado para hacer dinámica la web mediante el consumo de una API que obtiene los productos online que ofrece.
 - **Bootstrap:** Utilizado en el formulario de novedades.
+  
 
 ## URL de Hosteo - NETLIFY
 
